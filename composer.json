@@ -25,6 +25,7 @@
       "Zwei\\Collection\\Tests\\": "test/"
     },
     "files": [
+      "src/Collection/Support/helpers.php"
     ]
   },
   "suggest": {

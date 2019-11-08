@@ -18,6 +18,7 @@ class CollectionTest extends TestCase
         $collection->offsetSet(null, [1]);
         $collection->offsetSet(null, [2]);
         $this->assertEquals($collection->offsetGet(1), [2]);
+        $this->assertEquals(null, $collection->get(3));
         $this->assertTrue($collection->count() == 2);
     }
 }
